@@ -36,6 +36,11 @@ nav img{
         width: 200%;
     }
 }
+.navbar-light .navbar-toggler {
+    color: white;
+    border-color: white;
+    background-color: white;
+}
 /* End of Navbar*/
 
 /* Content */
@@ -55,7 +60,7 @@ nav img{
     transform: scale(1.1);
     transition: all .4s ease-in-out;
 }
-.content .card{
+.content{
     margin-bottom: 200px;
 }
 /* End of content*/
