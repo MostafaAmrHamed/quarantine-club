@@ -31,13 +31,18 @@ nav img{
     transition: all .5s ease-in-out;
     color: white;
 }
+@media (max-width:768px){
+    .navbar{
+        width: 200%;
+    }
+}
 /* End of Navbar*/
 
 /* Content */
 .content .card{
     margin: 50px;
-    margin-left: 100px;
-}
+    margin-left: 60px;
+}   
 .content .oneline{
     overflow: hidden;
     float: left;
@@ -49,6 +54,9 @@ nav img{
 .content .card:hover{
     transform: scale(1.1);
     transition: all .4s ease-in-out;
+}
+.content{
+    margin-bottom: 150px;
 }
 /* End of content*/
 
@@ -65,11 +73,21 @@ nav img{
     /*position: absolute;*/
     padding-top: 20px;
     background-color: #333;
-    width: 100%;
+   
 }
 .footer a{
     color: silver;
     font-size: 20px;
+}
+@media (max-width:768px){
+    .footer .copyR{
+        font-size: 10px;
+    }
+}
+@media (max-width:1000px){
+    .footer {
+        width: 220%;
+    }
 }
 /* End of Footer */
 
@@ -94,6 +112,17 @@ nav img{
 }
 .movie .row{
     margin-bottom: 50px;
+}
+@media(max-width:768px) {
+   .movie .col{
+       padding-top: 15px;
+   }
+   .movie{
+       margin-left: 190px;
+   }
+   .content{
+       margin-left: 100px;
+   }
 }
 /*End of (Sections)*/
 
